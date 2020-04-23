@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Battleship2.exe" version="1.0.0.1" publicKeyToken="9d975481599066f6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Battleship2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Battleship2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battleship2.exe" size="162712">
+      <assemblyIdentity name="Battleship2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UaJKGrUeM9GnDuKKzoeWdoOwaNpb757RByxQ2BWvE6k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Battleship2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\srkpi" issuerKeyHash="7add0a48159e3024cb422cf0629bac415db8dd89" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oIKrsagUL+wAoIi+TLLIbh2xcGemDdgsWv1NtQUVq8M=</DigestValue></Reference></SignedInfo><SignatureValue>iuGgGg1IhGmA2ipyTEv8RSmboiyLHAs3BamnyZdjQKh+FXeK8F6bJY6gZsCQf8vyeEEyXewJApCoWmVw1FkeSoD+NhXpQVxbb+1OM8c4SUSFLhRrnkRmSSPVHqlO0UePvdN6G38I4cCToj1q0bay7m77bdR8mOJGltuLkAAe9Rs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pI1zKvWg/BSO7ImcCQWlYzQhWupiS5HUTBlEt1HL6ORhc8ZL/ela9n9a+r+h9Rt7JyAQ31LSdQnMYAfP9DeJb7V02W34BVAFmlQohMmgPUgp3QCtDY9Bznwu1EgSRHWXHsBapvJ7rQFu0xl9Z0yjC2pBhzfpYZvdIuOGvSpG9x0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c3ab1505b54dfd5a2cd80da66770b11d6ec8b24cbe88a000ec2f14a8b1ab82a0" Description="" Url=""><as:assemblyIdentity name="Battleship2.exe" version="1.0.0.1" publicKeyToken="9d975481599066f6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\srkpi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P0QRvIeT5T/mS0Cu+76+hucaisFGCxgFtbQ1MJiuUhQ=</DigestValue></Reference></SignedInfo><SignatureValue>h5MOasRN60oBXN71SoNkP+xZVA40YdVgpg+EOWD3eETEk0GMuvQHXFg+1U/caq19/bDx04vG+VnEU2FqP8OlVmgrqoUXeg9PqxPTMvoNu2WR8hZGMlPb3V0SVqXsHJgwPHOfQXLiM98B17mkHDLlJzDVT8pooZ8xsVdh0X2tnsE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pI1zKvWg/BSO7ImcCQWlYzQhWupiS5HUTBlEt1HL6ORhc8ZL/ela9n9a+r+h9Rt7JyAQ31LSdQnMYAfP9DeJb7V02W34BVAFmlQohMmgPUgp3QCtDY9Bznwu1EgSRHWXHsBapvJ7rQFu0xl9Z0yjC2pBhzfpYZvdIuOGvSpG9x0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQfNCEThj8W6dA7mcCusVBNjANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABzAHIAawBwAGkwHhcNMjAwNDIzMDQzODE5WhcNMjEwNDIzMTAzODE5WjAdMRswGQYDVQQDHhIATQBTAEkAXABzAHIAawBwAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKSNcyr1oPwUjuyJnAkFpWM0IVrqYkuR1EwZRLdRy+jkYXPGS/3pWvZ/Wvq/ofUbeycgEN9S0nUJzGAHz/Q3iW+1dNlt+AVQBZpUKITJoD1IKd0ArQ2PQc58LtRIEkR1lx7AWqbye60BbtMZfWdMowtqQYc36WGb3SLjhr0qRvcdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAFIAiBKGE968dEPJ+GjoLU6r+8vrr2OC3hilv7+ydQAI1rP5ZxM80AGbltcZzDVJim9dy/bi5PuroMcgiqGABf9uVyBKc1pU7iLMvrkjbhNTFypN51RNhgS/qJEe8Pb7a7Ph8MyaWz0d8RWybj9t9aogp1LKJhhfjxhsRk5uIrQU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
